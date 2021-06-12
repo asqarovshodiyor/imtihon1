@@ -1,0 +1,69 @@
+.footer{
+    .footer-logo{
+        height: 396px;
+        .footer-logo__left{
+            padding: 0 190px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 300px;
+            background-image: url(../image/Maskppp.png);
+            background-color: #d3dae6;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .left__text-logo{
+                .text-logo--text{
+                    font-size: 48px;
+                    line-height: 48px;
+                    font-family: 'Space Mono';
+                    color: #FFFFFF;
+                    width: 415px;
+                }
+            }
+            .left__image{
+                .image--link{
+                    padding: 0 10px;
+                }
+            }
+        }
+        .footer-logo__right{
+            display: flex;
+            background-color: #333A44;
+            padding: 0 190px;
+            align-items: center;
+            justify-content: space-between;
+            height: 96px;
+            .right__rasmlar{
+                display: flex;
+                .rasmlar__menu-logo{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 58px;
+                    .menu-logo--iytms{
+                        .menu-logo--link{
+                            color: #939CAA;
+                            font-size: 15px;
+                            font-family: 'Space Mono';
+                            padding: 0 32px;
+                            &:hover{
+                                color: #FCB72B;
+                            }
+                        }
+                    }
+                }
+            }
+            .right__icon{
+                a{
+                    padding: 0 10px;
+                    svg{
+                        fill: #FCB72B;
+                        &:hover{
+                            fill: #E5ECF4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
